@@ -1,8 +1,7 @@
-<h1>
 <?php
-echo 'PHP version: ' . phpversion();
+echo '<h1>PHP version: ' . phpversion();
 echo '<br/>';
-echo $_SERVER['HTTP_HOST'] .' @ '. $_SERVER['SERVER_ADDR'] .' @@ '. $_ENV['HOSTNAME'] . '</h1>';
+echo  $_ENV['HOSTNAME'] .' @ '. $_SERVER['SERVER_ADDR'] .' >>> '. $_SERVER['HTTP_HOST'].'</h1>';
 if($_GET){
   foreach($_ENV as $var => $val)
   {
