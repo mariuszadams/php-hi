@@ -1,3 +1,3 @@
 <?php
-  echo  $_ENV['HOSTNAME'] .' @'. $_SERVER['SERVER_ADDR'].;
+  echo  $_ENV['HOSTNAME'] .' @'. $_SERVER['SERVER_ADDR'];
 ?>
